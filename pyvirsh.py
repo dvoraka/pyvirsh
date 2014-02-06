@@ -15,7 +15,6 @@ class PyVirsh:
     '''Class for libvirt shell.'''
 
     def __init__(self):
-        '''Constructor without connection.'''
 
         self.conn = None
 
@@ -44,7 +43,7 @@ class PyVirsh:
             'suspend': {},
             'test': {},
             'quit': {}
-            }
+        }
 
     def update_domains_completion(self):
         '''Update domain names in shell completion.'''
