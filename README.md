@@ -1,4 +1,4 @@
 pyvirsh
 =======
 
-Shell for virtualization.
+Shell for virtualization. WIP and it will use virlib.
